@@ -6,8 +6,7 @@ import random
 from sys import argv
 from typing import Optional
 
-from ShoukoRobot import (ALLOW_EXCL, CERT_PATH, DONATION_LINK, LOGGER,
-                          OWNER_ID, PORT, SUPPORT_CHAT, API_KEY,pbot, URL, WEBHOOK,
+from ShoukoRobot import (LOGGER, OWNER_ID, PORT, SUPPORT_CHAT, API_KEY,pbot, URL, WEBHOOK,
                           dispatcher, StartTime, telethn, updater)
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
